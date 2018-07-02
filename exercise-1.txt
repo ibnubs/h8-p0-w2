@@ -1,0 +1,12 @@
+/*Exercise-1 Pseudocode*/
+
+Soal 1
+inisialisasi variabel 
+'net force' 'mass' 'acceleration';
+mass = 600;
+if (acceleration==0);
+net force = 0;
+else
+net force = 'mass'*'acceleration';
+display (net force)
+
