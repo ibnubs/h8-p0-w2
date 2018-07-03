@@ -1,12 +1,62 @@
 /*Exercise-1 Pseudocode*/
 
 Soal 1
+START
 inisialisasi variabel 
 'net force' 'mass' 'acceleration';
-mass = 600;
-if (acceleration==0);
-net force = 0;
-else
-net force = 'mass'*'acceleration';
-display (net force)
+STORE 'mass' = 600;
+IF ('acceleration'==0);
+DISPLAY 'net force' = 0;
+ELSE
+CALCULATE 'mass' TIMES 'acceleration';
+SET 'net force' value with calculation result;
+DISPLAY (net force);
+END
+
+
+soal 2
+START
+IF 'year' modulo 4 is 0;
+THEN 
+    IF 'year' modulo  100 is 0;
+    THEN
+        IF 'year' modulo 400 is 0;
+        THEN
+            is_leap_'year';
+        ELSE
+            not_leap_'year';
+    ELSE is_leap_'year';
+ELSE not_leap_'year';
+END
+
+
+soal 3
+START
+inisialisasi variabel
+'laundry on' 'clothes'
+
+STORE 'clothes' with 0;
+
+WHILE 'clothes' < 20;
+ADD 'clothes' by 1;
+
+DISPLAY 'laundry on';
+END
+
+/**Soal 4**/
+START
+inisialisasi
+'long' 'short' 'nails' 'student'
+
+STORE 'student' with 0;
+
+    WHILE 'student' < 40;
+        DISPLAY call 'student'
+            ADD 'student' by 1
+        STORE cek 'nails' with 'short' or 'long'
+        STORE 'nails' to the result of cekking 'student nail';
+        IF 'nails' = 'long' ;
+            DISPLAY 'punishment';
+        ELSE
+            DISPLAY 'reward';
 
