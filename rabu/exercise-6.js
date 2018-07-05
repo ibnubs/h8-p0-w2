@@ -150,3 +150,5 @@ console.log('LOOPING KEDUA');
         console.log(' ');
       }
   }
+
+//End of Soal 3  
