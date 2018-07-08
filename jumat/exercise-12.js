@@ -2,14 +2,10 @@
 
 
 function konversiMenit(menit) {
-  // you can only write your code here!
-  var jam = Math.floor (menit/60);
-  var menit = menit%60; 
-  
-  if (menit>9){
-    return (jam + ': ' + menit);  
-  } else 
-    return (jam + ': ' + '0' + menit);
+  var h = Math.floor(menit / 60);
+  var mm = (menit % 60).toString().length === 1 ? '0' + Math.floor(menit % 60) : Math.floor(menit % 60);
+
+  return h + ':' + mm;
 }
 
 // TEST CASES
